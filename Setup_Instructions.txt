@@ -1,0 +1,17 @@
+JDK Installtion:
+To check whether JDK is installed, Run the following command in cmd/terminal
+1) javac -version
+2) java -version
+
+If the command returns error stating the command "javac" was not found,
+Run the JDK installer jdk-22_windows-x64_bin.msi at https://download.oracle.com/java/22/latest/jdk-22_windows-x64_bin.msi
+
+Eclipse Installation:
+1) Head over to https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2024-06/R/eclipse-inst-jre-win64.exe 
+	to download the eclipse installer.
+2) Run the installer to download Java IDE for Enterprise Java and Web Developers package.
+3) After the installation process is complete. Run the eclipse.exe
+4) Select workspace
+5) Create a new JAVA project
+6) Create a new package
+7) Create a new class
