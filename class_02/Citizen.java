@@ -1,7 +1,7 @@
 class Citizen
 {
-	private string name;
-	private string nationality;
+	private String name;
+	private String nationality;
 	private int age;
 
 	public Citizen(String name, String nationality, int age)
@@ -16,11 +16,11 @@ class Citizen
 		if(this.nationality.equalsIgnoreCase("Nepali"))
 		{
 			if(this.age >= 18)
-				System.out.println(this.name + ", You can vote");
+				System.out.println(this.name + ", You can Vote.");
 			else
-				System.out.println(this.name + ", You cannot vote");
+				System.out.println(this.name + ", You cannot Vote.");
 		}
 		else
-			System.out.println(this.name + ", You cannot vote");
+			System.out.println(this.name + ", You cannot Vote.");
 	}
 }

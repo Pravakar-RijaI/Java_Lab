@@ -8,7 +8,7 @@ class UserDemo
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter Username: ");
 		String username = input.next();
-		System.out.println("Enter Password: );
+		System.out.println("Enter Password: ");
 		String password = input.next();
 		user.authenticate(username, password);
 		input.close();
