@@ -130,49 +130,6 @@ sh cd Java_Lab
 
 ### ⚙️ Development Environment
 
-JDK Installation:
-
-1.  Check if JDK is Installed: Open a command prompt or terminal. Run
-    the following commands: javac -version java -version
-
-If you encounter an error like "'javac' is not recognized as an internal
-or external command," check if JDK is already installed in
-C:`\Program `{=tex}Files`\Common `{=tex}Files`\Oracle`{=tex}`\Java`{=tex}`\javapath`{=tex}.
-If JDK is not installed, proceed to step 2. If JDK is installed and
-error persists, proceed to step 3.
-
-2.Download and Install JDK: Visit the Java Downloads page on Oracle's
-website. Download the JDK 22 installer for your operating system
-(Windows in this case). Run the installer (e.g.,
-jdk-22_windows-x64_bin.msi) and follow the installation instructions.
-Now, if environment variable is set by installer skip step 3, otherwise
-proceed to step 3.
-
-3.Adding JDK "bin" Directory to Path Setting (Windows): Open Control
-Panel \> System and Security \> System. Click Advanced system settings.
-Click Environment Variables. Under System variables, select Path and
-click Edit. Add the jdk installtaion path to the beginning of the
-current list like
-C:`\Program `{=tex}Files`\Java`{=tex}`\jdk-22`{=tex}`\bin`{=tex} Click
-OK to save the change
-
-Eclipse Installation: 1.Download Eclipse: Go to the Eclipse Downloads
-page. Download the Eclipse Installer for Java Developers package. 2.Run
-the Eclipse Installer: Execute the downloaded installer (e.g.,
-eclipse-inst-jre-win64.exe). Follow the on-screen instructions. Choose
-the installation folder. 3.Create a New Java Project in Eclipse: Open
-Eclipse. Go to File \> New \> Java Project. Enter a project name (e.g.,
-"MyJavaProject") and click "Finish." 4.Create a New Java Class:
-Right-click on the src folder in the Project Explorer. Select New \>
-Class. Enter a class name (e.g., "MyMainClass") and check the option to
-include the public static void main(String\[\] args) method. Click
-"Finish." 5.Write Your Main Method: Eclipse will generate a skeleton for
-your main method. Add your code inside it. Example: public class
-MyMainClass { public static void main(String\[\] args) {
-System.out.println("Hello, world!"); } } 6.Run Your Program: Right-click
-on your class file (MyMainClass.java) in the Project Explorer. Select
-Run As \> Java Application. You'll see the output in the Console view.
-
 ---
 
 ## 🤝 Contributing
